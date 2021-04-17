@@ -1,0 +1,34 @@
+p {margin:0px; padding:0px; line-height:100%}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1000px;min-height:1200px;z-index:1;}
+#PanelHeader {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:221px;z-index:2;}
+#PanelHeaderAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelHeaderNoAlpha {position:relative;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:98px;top:3px;width:754px;height:213px;z-index:3;}
+#Img3Inner {position:absolute;width:754px;height:213px;border:0px;}
+#PanelMenu {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:60px;z-index:4;}
+#PanelMenuAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelMenuNoAlpha {position:relative;}
+#BoxMenu1 {display:block;overflow:hidden;position:absolute;left:0px;top:0px;width:960px;height:60px;z-index:5;background:url('./images/gallerie-photos_BoxMenu1.png');background-repeat:no-repeat;}
+#BoxMenu2 {display:block;overflow:hidden;position:absolute;left:0px;top:48px;width:960px;height:12px;z-index:6;background:url('./images/gallerie-photos_BoxMenu2.png');background-repeat:no-repeat;}
+#Panel1 {display:block;overflow:hidden;position:absolute;left:73px;top:11px;width:813px;height:38px;z-index:7;}
+#Panel1Alpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#Panel1NoAlpha {position:relative;}
+#But3 {display:block;overflow:hidden;position:absolute;left:0px;top:2px;width:99px;height:35px;z-index:8;background:url('./buttons/gallerie-photos_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -99px 0;}
+#But3.Over {background-position: -198px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:13px;color:#000000;}
+#But3.Up p {top:12px;left:26px;}
+#But3.Down p {top:13px;left:27px;}
+#But3.Over p {top:12px;left:26px;}
+#But3 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:201px;top:2px;width:99px;height:35px;z-index:9;background:url('./buttons/gallerie-photos_But3.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -99px 0;}
+#But1.Over {background-position: -198px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:13px;color:#000000;}
+#But1.Up p {top:12px;left:8px;}
+#But1.Down p {top:13px;left:9px;}
+#But1.Over p {top:12px;left:8px;}
+#But1 div {display:none;}

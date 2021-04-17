@@ -1,0 +1,115 @@
+p {margin:0px; padding:0px; line-height:100%}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1000px;min-height:1200px;z-index:1;}
+#PanelHeader {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:235px;z-index:2;}
+#PanelHeaderAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelHeaderNoAlpha {position:relative;}
+#Panel2 {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:978px;height:236px;z-index:3;}
+#Panel2Alpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#Panel2NoAlpha {position:relative;}
+#Img8 {display:block;overflow:hidden;position:absolute;left:73px;top:8px;width:204px;height:228px;z-index:4;}
+#Img8Inner {position:absolute;width:204px;height:228px;border:0px;}
+#Img10 {display:block;overflow:hidden;position:absolute;left:277px;top:8px;width:204px;height:228px;z-index:5;}
+#Img10Inner {position:absolute;width:204px;height:228px;border:0px;}
+#Img11 {display:block;overflow:hidden;position:absolute;left:480px;top:8px;width:204px;height:228px;z-index:6;}
+#Img11Inner {position:absolute;width:204px;height:228px;border:0px;}
+#Img12 {display:block;overflow:hidden;position:absolute;left:682px;top:8px;width:204px;height:228px;z-index:7;}
+#Img12Inner {position:absolute;width:204px;height:228px;border:0px;}
+#Text6 {display:block;position:absolute;left:122px;top:43px;width:374px;height:133px;z-index:8;}
+#Text7 {display:block;position:absolute;left:495px;top:43px;width:374px;height:133px;z-index:9;}
+#PanelMenu {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:60px;z-index:10;}
+#PanelMenuAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelMenuNoAlpha {position:relative;}
+#BoxMenu1 {display:block;overflow:hidden;position:absolute;left:0px;top:0px;width:960px;height:60px;z-index:11;background:url('./images/reference-f_BoxMenu1.png');background-repeat:no-repeat;}
+#BoxMenu2 {display:block;overflow:hidden;position:absolute;left:0px;top:48px;width:960px;height:12px;z-index:12;background:url('./images/reference-f_BoxMenu2.png');background-repeat:no-repeat;}
+#Panel1 {display:block;overflow:hidden;position:absolute;left:62px;top:11px;width:813px;height:38px;z-index:13;}
+#Panel1Alpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#Panel1NoAlpha {position:relative;}
+#But3 {display:block;overflow:hidden;position:absolute;left:0px;top:2px;width:99px;height:35px;z-index:14;background:url('./buttons/reference-f_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -99px 0;}
+#But3.Over {background-position: -198px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:13px;color:#000000;}
+#But3.Up p {top:12px;left:26px;}
+#But3.Down p {top:13px;left:27px;}
+#But3.Over p {top:12px;left:26px;}
+#But3 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:201px;top:2px;width:99px;height:35px;z-index:15;background:url('./buttons/reference-f_But3.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -99px 0;}
+#But1.Over {background-position: -198px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:13px;color:#000000;}
+#But1.Up p {top:12px;left:8px;}
+#But1.Down p {top:13px;left:9px;}
+#But1.Over p {top:12px;left:8px;}
+#But1 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:103px;top:2px;width:99px;height:35px;z-index:16;background:url('./buttons/reference-f_But3.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -99px 0;}
+#But5.Over {background-position: -198px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:13px;color:#000000;}
+#But5.Up p {top:12px;left:10px;}
+#But5.Down p {top:13px;left:11px;}
+#But5.Over p {top:12px;left:10px;}
+#But5 div {display:none;}
+#But6 {display:block;overflow:hidden;position:absolute;left:301px;top:2px;width:99px;height:35px;z-index:17;background:url('./buttons/reference-f_But3.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -99px 0;}
+#But6.Over {background-position: -198px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:13px;color:#000000;}
+#But6.Up p {top:12px;left:26px;}
+#But6.Down p {top:13px;left:27px;}
+#But6.Over p {top:12px;left:26px;}
+#But6 div {display:none;}
+#But7 {display:block;overflow:hidden;position:absolute;left:399px;top:3px;width:112px;height:35px;z-index:18;background:url('./buttons/reference-f_But7.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -112px 0;}
+#But7.Over {background-position: -224px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:15px;color:#000000;}
+#But7.Up p {top:11px;left:27px;}
+#But7.Down p {top:12px;left:28px;}
+#But7.Over p {top:11px;left:27px;}
+#But7 div {display:none;}
+#PanelCenter {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;min-height:600px;z-index:19;}
+#PanelCenterAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelCenterNoAlpha {position:relative;}
+#DecoEdit {display:block;overflow:hidden;position:absolute;left:20px;top:0px;width:920px;height:600px;z-index:20;}
+#DecoEditInner {position:absolute;width:920px;height:600px;border:0px;}
+#PanelBanner {display:block;overflow:hidden;position:relative;float:left;width:960px;height:240px;z-index:21;}
+#PanelBannerAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelBannerNoAlpha {position:relative;}
+#BoxBanner {display:block;overflow:hidden;position:relative;float:left;width:960px;height:240px;z-index:22;background:url('./images/reference-f_BoxBanner.png');background-repeat:no-repeat;}
+#Text1 {display:block;position:absolute;left:10px;top:-51px;margin-left:20px;margin-top:70px;margin-right:20px;width:200px;height:131px;z-index:23;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:186px;top:9px;width:432px;height:211px;z-index:24;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img3Inner {position:absolute;width:432px;height:211px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img4 {display:block;overflow:hidden;position:absolute;left:628px;top:14px;width:314px;height:206px;z-index:25;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img4Inner {position:absolute;width:314px;height:206px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#PanelBlocs {display:block;overflow:hidden;position:relative;float:left;width:960px;min-height:480px;z-index:26;padding-bottom:10px;}
+#PanelBlocsAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelBlocsNoAlpha {position:relative;}
+#Box3 {display:block;overflow:hidden;position:relative;float:left;width:240px;height:240px;z-index:27;background:url('./images/reference-f_Box3.png');background-repeat:no-repeat;}
+#Titre3 {display:block;overflow:hidden;position:absolute;left:9px;top:10px;width:211px;height:20px;z-index:28;white-space:normal;}
+#Box1 {display:block;overflow:hidden;position:relative;float:left;width:715px;height:479px;z-index:29;background:url('./images/reference-f_Box1.png');background-repeat:no-repeat;}
+#Titre1 {display:block;overflow:hidden;position:absolute;left:50px;top:10px;width:170px;height:20px;z-index:30;white-space:normal;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:10px;top:5px;width:30px;height:30px;z-index:31;}
+#Img2Inner {position:absolute;width:30px;height:30px;border:0px;}
+#But4 {display:block;overflow:hidden;position:absolute;left:533px;top:0px;width:176px;height:35px;z-index:32;background:url('./buttons/reference-f_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -176px 0;}
+#But4.Over {background-position: -352px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-style:italic;font-family:Arial;font-size:16px;color:#000000;}
+#But4.Up p {top:10px;left:15px;}
+#But4.Down p {top:11px;left:16px;}
+#But4.Over p {top:10px;left:15px;}
+#But4 div {display:none;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:38px;top:53px;width:598px;height:400px;z-index:33;box-shadow:10px 10px 5px rgba(00,00,00,0.5);-webkit-box-shadow:10px 10px 5px rgba(00,00,00,0.5);-moz-box-shadow:10px 10px 5px rgba(00,00,00,0.5);border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img1Inner {position:absolute;width:598px;height:400px;border:0px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#Img1PopUp {display:none;overflow:hidden;z-index:999}
+#Img1PopUpInner {position:absolute;width:922px;height:622px;border:0px;overflow:hidden;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;}
+#Text2 {overflow:auto;overflowX:hidden;overflowY:hidden;display:none;position:absolute;left:8px;top:44px;width:232px;height:221px;z-index:34;}
+#Text3 {overflow:auto;overflowX:hidden;overflowY:hidden;display:block;position:absolute;left:10px;top:272px;width:236px;height:200px;z-index:35;}
+#PanelFooter {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:57px;z-index:36;}
+#PanelFooterAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelFooterNoAlpha {position:relative;}
+#BoxFooter1 {display:block;overflow:hidden;position:relative;float:left;width:960px;height:50px;z-index:37;background:url('./images/reference-f_BoxFooter1.png');background-repeat:no-repeat;}
+#BoxFooter2 {display:block;overflow:hidden;position:absolute;left:0px;top:0px;width:960px;height:12px;z-index:38;background:url('./images/reference-f_BoxMenu2.png');background-repeat:no-repeat;}

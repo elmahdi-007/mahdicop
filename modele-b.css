@@ -1,0 +1,113 @@
+p {margin:0px; padding:0px; line-height:100%}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1000px;min-height:1200px;z-index:1;}
+#PanelHeader {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:221px;z-index:2;}
+#PanelHeaderAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelHeaderNoAlpha {position:relative;}
+#Img4 {display:block;overflow:hidden;position:absolute;left:100px;top:5px;width:751px;height:212px;z-index:3;}
+#Img4Inner {position:absolute;width:751px;height:212px;border:0px;}
+#PanelMenu {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:60px;z-index:4;}
+#PanelMenuAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelMenuNoAlpha {position:relative;}
+#BoxMenu1 {display:block;overflow:hidden;position:absolute;left:0px;top:0px;width:960px;height:60px;z-index:5;background:url('./images/modele-b_BoxMenu1.png');background-repeat:no-repeat;}
+#BoxMenu2 {display:block;overflow:hidden;position:absolute;left:0px;top:48px;width:960px;height:12px;z-index:6;background:url('./images/modele-b_BoxMenu2.png');background-repeat:no-repeat;}
+#Panel1 {display:block;overflow:hidden;position:absolute;left:73px;top:11px;width:813px;height:38px;z-index:7;}
+#Panel1Alpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#Panel1NoAlpha {position:relative;}
+#But1 {display:block;overflow:hidden;position:absolute;left:0px;top:2px;width:99px;height:35px;z-index:8;background:url('./buttons/modele-b_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -99px 0;}
+#But1.Over {background-position: -198px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:13px;color:#000000;}
+#But1.Up p {top:12px;left:26px;}
+#But1.Down p {top:13px;left:27px;}
+#But1.Over p {top:12px;left:26px;}
+#But1 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:201px;top:2px;width:99px;height:35px;z-index:9;background:url('./buttons/modele-b_But1.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -99px 0;}
+#But3.Over {background-position: -198px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:13px;color:#000000;}
+#But3.Up p {top:12px;left:8px;}
+#But3.Down p {top:13px;left:9px;}
+#But3.Over p {top:12px;left:8px;}
+#But3 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:103px;top:2px;width:99px;height:35px;z-index:10;background:url('./buttons/modele-b_But1.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -99px 0;}
+#But5.Over {background-position: -198px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:13px;color:#000000;}
+#But5.Up p {top:12px;left:10px;}
+#But5.Down p {top:13px;left:11px;}
+#But5.Over p {top:12px;left:10px;}
+#But5 div {display:none;}
+#But7 {display:block;overflow:hidden;position:absolute;left:301px;top:2px;width:99px;height:35px;z-index:11;background:url('./buttons/modele-b_But1.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -99px 0;}
+#But7.Over {background-position: -198px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:13px;color:#000000;}
+#But7.Up p {top:12px;left:26px;}
+#But7.Down p {top:13px;left:27px;}
+#But7.Over p {top:12px;left:26px;}
+#But7 div {display:none;}
+#But8 {display:block;overflow:hidden;position:absolute;left:401px;top:2px;width:112px;height:35px;z-index:12;background:url('./buttons/modele-b_But8.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -112px 0;}
+#But8.Over {background-position: -224px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:15px;color:#000000;}
+#But8.Up p {top:11px;left:27px;}
+#But8.Down p {top:12px;left:28px;}
+#But8.Over p {top:11px;left:27px;}
+#But8 div {display:none;}
+#PanelCenter {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;min-height:600px;z-index:13;}
+#PanelCenterAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelCenterNoAlpha {position:relative;}
+#DecoEdit {display:block;overflow:hidden;position:absolute;left:20px;top:0px;width:920px;height:600px;z-index:14;}
+#DecoEditInner {position:absolute;width:920px;height:600px;border:0px;}
+#PanelBanner {display:block;overflow:hidden;position:relative;float:left;width:960px;height:120px;z-index:15;}
+#PanelBannerAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelBannerNoAlpha {position:relative;}
+#BoxBanner1 {display:block;overflow:hidden;position:relative;float:left;width:960px;height:120px;z-index:16;background:url('./images/modele-b_BoxBanner1.png');background-repeat:no-repeat;}
+#Text2 {display:block;position:absolute;left:0px;top:-41px;margin-left:20px;margin-top:70px;margin-right:20px;width:920px;height:60px;z-index:17;}
+#PanelBlocs {display:block;overflow:hidden;position:relative;float:left;width:960px;min-height:480px;z-index:18;padding-bottom:10px;}
+#PanelBlocsAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelBlocsNoAlpha {position:relative;}
+#Box1 {display:block;overflow:hidden;position:relative;float:left;width:240px;height:240px;z-index:19;background:url('./images/modele-b_Box1.png');background-repeat:no-repeat;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:11px;top:60px;width:213px;height:158px;z-index:20;}
+#Img1Inner {position:absolute;width:213px;height:158px;border:0px;}
+#Box13 {display:block;overflow:hidden;position:relative;float:left;width:480px;height:240px;z-index:21;background:url('./images/modele-b_Box13.png');background-repeat:no-repeat;}
+#Titre13 {display:block;overflow:hidden;position:absolute;left:50px;top:10px;width:410px;height:20px;z-index:22;white-space:normal;}
+#Img13 {display:block;overflow:hidden;position:absolute;left:10px;top:5px;width:30px;height:30px;z-index:23;}
+#Img13Inner {position:absolute;width:30px;height:30px;border:0px;}
+#Text3 {display:block;position:absolute;left:10px;top:49px;width:248px;height:35px;z-index:24;}
+#Box2 {display:block;overflow:hidden;position:relative;float:left;width:240px;height:240px;z-index:25;background:url('./images/modele-b_Box1.png');background-repeat:no-repeat;}
+#Box3 {display:block;overflow:hidden;position:relative;float:left;width:240px;height:240px;z-index:26;background:url('./images/modele-b_Box1.png');background-repeat:no-repeat;}
+#Titre3 {display:block;overflow:hidden;position:absolute;left:50px;top:10px;width:170px;height:20px;z-index:27;white-space:normal;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:10px;top:5px;width:30px;height:30px;z-index:28;}
+#Img3Inner {position:absolute;width:30px;height:30px;border:0px;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:11px;top:54px;width:215px;height:161px;z-index:29;}
+#Img2Inner {position:absolute;width:215px;height:161px;border:0px;}
+#Text1 {display:block;position:absolute;left:261px;top:83px;width:667px;height:396px;z-index:30;}
+#But6 {display:block;overflow:hidden;position:absolute;left:769px;top:434px;width:159px;height:35px;z-index:31;background:url('./buttons/modele-b_But6.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -159px 0;}
+#But6.Over {background-position: -318px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-style:italic;font-family:Arial;font-size:15px;color:#000000;}
+#But6.Up p {top:11px;left:17px;}
+#But6.Down p {top:12px;left:18px;}
+#But6.Over p {top:11px;left:17px;}
+#But6 div {display:none;}
+#PanelFooter {display:block;overflow:hidden;position:relative;float:left;margin-left:20px;width:960px;height:43px;z-index:32;}
+#PanelFooterAlpha {position:absolute;left:0px;top:0px;width:100%;height:100%;}
+#PanelFooterNoAlpha {position:relative;}
+#BoxFooter1 {display:block;overflow:hidden;position:relative;float:left;width:960px;height:60px;z-index:33;background:url('./images/modele-b_BoxMenu1.png');background-repeat:no-repeat;}
+#BoxFooter2 {display:block;overflow:hidden;position:absolute;left:0px;top:0px;width:960px;height:12px;z-index:34;background:url('./images/modele-b_BoxMenu2.png');background-repeat:no-repeat;}
+#But4 {display:block;overflow:hidden;position:absolute;left:270px;top:451px;width:219px;height:35px;z-index:35;background:url('./buttons/modele-b_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -219px 0;}
+#But4.Over {background-position: -438px 0;}
+#But4 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial Narrow;font-size:21px;color:#000000;}
+#But4.Up p {top:7px;left:19px;}
+#But4.Down p {top:8px;left:20px;}
+#But4.Over p {top:7px;left:19px;}
+#But4 div {display:none;}
